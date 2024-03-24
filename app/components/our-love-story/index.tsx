@@ -93,7 +93,7 @@ const OurLoveStory = () => {
           </div>
           <div className="row">
             <div className="col-md-12  text-center mt-100">
-              <a href="#" className="but">
+              <a href="#wedding-location" className="but">
                 <span>Wedding location</span>
                 <svg className="but-svg" width="175" height="50" viewBox="0 0 415 120" xmlns="http://www.w3.org/2000/svg">
                   <rect className="but-rect" x="10" y="10" width="400" height="100" rx="6" ry="6"/>

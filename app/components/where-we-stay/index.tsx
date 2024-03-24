@@ -9,8 +9,8 @@ const WhereWeStay = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm-12 text-center mb-100">
-              <h1 className="title">Where to stay</h1>
-              <p>Accommodation - information below</p>
+              <h1 className="text-6xl">Gửi lời chúc đến Quang Minh và Minh Thư</h1>
+              <p className="hidden">Accommodation - information below</p>
           </div>
         </div>
         <div className="row">
@@ -22,13 +22,8 @@ const WhereWeStay = () => {
                     </div>
                 </a>
               </div>
-              <p className=" lead size-s mt-30">Hotel Monaco <br/>
-                501 Geary Street<br/>
-                San Franciscio, California<br/>
-                (415) 292 - 0100
-              </p>
               <a href="#" className="but mt-30">
-                <span>Location</span>
+                <span>QR code</span>
                 <svg className="but-svg" width="175" height="50" viewBox="0 0 290 120" xmlns="http://www.w3.org/2000/svg">
                     <rect className="but-rect" x="10" y="10" width="270" height="100" rx="6" ry="6"/>
                 </svg>
@@ -42,13 +37,8 @@ const WhereWeStay = () => {
                   </div>
               </a>
             </div>
-            <p className=" lead size-s mt-30 ">Hotel Nikko<br />
-              222 Mason  Street<br />
-              San Franciscio, California<br />
-              (415) 394 - 1111
-            </p>
             <a href="#" className="but mt-30">
-              <span>Location</span>
+              <span>QR code</span>
               <svg className="but-svg" width="175" height="50" viewBox="0 0 290 120" xmlns="http://www.w3.org/2000/svg">
                   <rect className="but-rect" x="10" y="10" width="270" height="100" rx="6" ry="6"/>
               </svg>

@@ -7,9 +7,6 @@ const HeroBanner = () => {
     <section className="hero overlay">
       <div className="background-img">
         <Image src={PrimaryImage} alt="" layout='fill' objectFit='contain'/>
-        {/* <video controls autoPlay loop muted aria-label="Video player" className="h-full">
-          <source src="/videos/QuangMinh_MinhThu_weddingIvitation_30_3.mp4" type="video/mp4" />
-        </video> */}
       </div>
       <header className="header default">
         <div className=" left-part">
@@ -38,9 +35,9 @@ const HeroBanner = () => {
         <div className="container hero-content">
           <div className="row mt-[20rem]">
             <div className="col-sm-12 text-center">
-              <h1 className="text-[10rem] text-alex-brush U mb-20">
+              <h1 className="text-[10rem] text-alex-brush U mb-20 text-glow">
                 <span>Minh</span>  
-                <Image src={Logo} alt="" objectFit='contain' height="54"/>
+                <Image src={Logo} alt="" objectFit='contain' height="80" style={{background: "radial-gradient(#423e3e, transparent)", borderRadius: '100%'}}/>
                 <span>Thư</span> 
               </h1>
               <div className="block-date-hero">

@@ -26,8 +26,8 @@ export default function Home() {
          <WeddingDate />
          <WeddingEvents />
          <PhotoAlbum />
-         <GiftRegistry />
-         <OurBestFriends />
+         {/* <GiftRegistry /> */}
+         {/* <OurBestFriends /> */}
          <WhereWeStay />
          <Footer />
       </div>
