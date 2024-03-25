@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="col-sm-12 text-center">
                 <div className="block-content front-p">
                   <h2 className="typo">Just married</h2>
-                  <h2 className="text-6xl text-alex-brush text-glow">Quang Minh ♥️ Minh Thư</h2>
+                  <h2 className="text-6xl text-alex-brush">Quang Minh ♥️ Minh Thư</h2>
                 </div>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
-              <p className="text-6xl text-alex-brush text-glow-black">🤵🏻 Quang Minh ♥️ Minh Thư 👰🏻‍♀️</p>
+              <p className="text-6xl text-alex-brush">🤵🏻 Quang Minh ♥️ Minh Thư 👰🏻‍♀️</p>
               <p>Sự hiện diện của Quý Khách là niềm vinh hạnh cho gia đình chúng tôi!</p>
             </div>
           </div>

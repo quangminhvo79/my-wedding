@@ -19,7 +19,7 @@ const OurLoveStory = () => {
         </div>
         <div className="row">
           <div className="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 text-center mb-30">
-            <h2 className="heavy">When Sara Miller Met Ben Shneider<br/><span>That day changed everything</span></h2>
+            <h2 className="heavy">{"\"I was enchanted to meet you\""}</h2>
           </div>
           <div className="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 text-center">
             <div className="img-round">
@@ -43,13 +43,13 @@ const OurLoveStory = () => {
           </div>
           <div className="col-sm-5 ">
             <div className="couple-story text-right">
-              <h2 className="heavy mb-10">Our first met<br/><span>12 Sept 2016</span></h2>
+              <h2 className="heavy mb-10">Our first met<br/><span>2 July 2023</span></h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam notn bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices nibh. Etiam aliquam mauris non hendrerit faucibus</p>
             </div>
           </div>
           <div className="col-sm-5 col-sm-offset-2">
             <div className="couple-story">
-              <h2 className="heavy mb-10">Our first Dating<br/><span>23 Oct 2016</span></h2>
+              <h2 className="heavy mb-10">Our first Dating<br/><span>15 July 2023</span></h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam notn bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices nibh. Etiam aliquam mauris non hendrerit faucibus</p>
             </div>
           </div>
@@ -65,7 +65,7 @@ const OurLoveStory = () => {
           </div>
           <div className="col-sm-5 ">
             <div className="couple-story text-right">
-              <h2 className="heavy mb-10">How he proposed<br/><span>27 Jan 2017</span></h2>
+              <h2 className="heavy mb-10">How he proposed<br/><span>30 July 2023</span></h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices malesuada ante quis pharetra. Nullam notn bibendum dolor. Ut vel turpis accumsan, efficitur dolor fermentum, tincidunt metus. Etiam ut ultrices nibh. Etiam aliquam mauris non hendrerit faucibus</p>
             </div>
           </div>

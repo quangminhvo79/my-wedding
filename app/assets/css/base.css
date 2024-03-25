@@ -166,7 +166,7 @@ iframe {
     display: inline-block;
 }
 ::-moz-selection {
-    background: #8de9be;
+
 }
 /* End reset & basics (Inspired by E. Meyers) */
 
@@ -175,7 +175,7 @@ iframe {
 
 body {
     background: #ffffff;
-    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family: var(--font-font-quicksand), "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     color: #757575;
     margin: 0;
     font-size: 14px;
@@ -304,6 +304,9 @@ p.heavy.normal {
 }
 .text-alex-brush {
     font-family: var(--font-alex-brush)
+}
+.text-quicksand {
+    font-family: var(--font-font-quicksand)
 }
 
 h2.typo{

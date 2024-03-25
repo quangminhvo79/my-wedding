@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Kristi } from "next/font/google";
 import { Alex_Brush } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import "./globals.css";
 import Script from 'next/script'
 
@@ -21,6 +22,12 @@ const alexBrush = Alex_Brush({
   variable: '--font-alex-brush',
 });
 
+const quicksand = Quicksand({ 
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-quicksand',
+});
+
 export const metadata: Metadata = {
   title: "Minh & Thư Wedding",
   description: "Minh & Thư Wedding",
@@ -32,8 +39,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{"colorScheme": "dark"}} className={`${kristi.variable} font-kristi ${alexBrush.variable} font-alex-brush`}>
-      <body className={inter.className} >{children}</body>
+    <html lang="en" style={{"colorScheme": "dark"}} className={`${kristi.variable} font-kristi ${alexBrush.variable} font-alex-brush  ${quicksand.variable} font-quicksand`}>
+      <body className={quicksand.className} >{children}</body>
       <Script src="/js/jquery-1.12.4.min.js" />
       <Script src="/js/jquery.countdown.min.js" />
       <Script src="/js/placeholders.min.js" />

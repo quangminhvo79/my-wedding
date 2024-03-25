@@ -12,8 +12,8 @@ const WeddingDate = () => {
           <source src="/videos/QuangMinh_MinhThu_weddingIvitation_30_3.mp4" type="video/mp4" />
         </video> */}
       </div>
-      <div className="absolute w-full top-0 text-center">
-        <h2 className="text-kristi text-[#564e4e] text-[24rem]">Save the date</h2>
+      <div className="absolute w-full top-0 text-center z-[9]">
+        <h2 className="text-kristi text-[#ffffff9c] text-[24vw]">Save the date</h2>
       </div>
       <div className="absolute !z-[100] top-0 w-full h-[570px]">
         <Image src={BackgroundWeddinDateNoBg} alt="" layout='fill' objectFit='cover'/>
@@ -22,9 +22,9 @@ const WeddingDate = () => {
         </video> */}
       </div>
       <div className="absolute !z-[101] bottom-[4rem] left-0 w-full">
-        <div className="text-center font-bold text-border-white">
-          <p className="text-[2rem] mb-[4rem] text-[#564e4e]">Saturday MAR 30th, 2024 - Nhà hàng Golf Đồng nai</p>
-          <p className="countdown !font-bold text-[#564e4e]"></p>
+        <div className="text-center font-bold">
+          <p className="text-[3rem] mb-[2rem] text-white">Saturday, 30th March, 2024</p>
+          <p className="countdown !font-bold text-white"></p>
         </div>
       </div>
     </section>

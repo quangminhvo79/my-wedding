@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         kristi: ['var(--font-kristi)'],
         alexBrush: ['var(--font-alex-brush)'],
+        quicksand: ['var(--font-font-quicksand)'],
       },
     },
   },

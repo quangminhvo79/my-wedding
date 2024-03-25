@@ -36,9 +36,9 @@ const HeroBanner = () => {
           <div className="row mt-[20rem]">
             <div className="col-sm-12 text-center">
               <h1 className="text-[10rem] text-alex-brush U mb-20 text-glow">
-                <span>Minh</span>  
+                <span>Minh </span>  
                 <Image src={Logo} alt="" objectFit='contain' height="80" style={{background: "radial-gradient(#423e3e, transparent)", borderRadius: '100%'}}/>
-                <span>Thư</span> 
+                <span> Thư</span> 
               </h1>
               <div className="block-date-hero">
                 <div className="circle-dashed bg-n">
