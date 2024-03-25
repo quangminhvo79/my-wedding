@@ -8,7 +8,7 @@ import Photo6 from "@/assets/img/11.jpg"
 
 const PhotoAlbum = () => {
   return (
-    <section id="album" className="album bg-grey pt-120 pb-120">
+    <section id="album" className="album pt-120 pb-120">
       <div className="container">
         <div className="row mb-30">
           <h2 className="indent">Photo album</h2>

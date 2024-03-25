@@ -11,7 +11,7 @@ const HeroBanner = () => {
       <header className="header default">
         <div className=" left-part">
           <a className="scroll" href="#hero">
-            <Image src={Logo} alt="" objectFit='contain' height="54"/>
+            <Image src={Logo} alt="" objectFit='contain' height="54" style={{background: 'radial-gradient(#423e3e, 10%, transparent)', borderRadius: '100%'}}/>
           </a>
         </div>
         <div className="right-part">
@@ -21,7 +21,7 @@ const HeroBanner = () => {
                   <div className="lines"></div>
               </a>
             </div>
-            <ul>
+            <ul className="mt-0 mb-2">
               <li><a className="scroll" href="#story">Love story</a></li>
               <li><a className="scroll" href="#wedding">The wedding</a></li>
               <li><a className="scroll" href="#album">Photo album</a></li>
