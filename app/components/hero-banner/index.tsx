@@ -35,10 +35,12 @@ const HeroBanner = () => {
         <div className="container hero-content">
           <div className="row mt-[20rem]">
             <div className="col-sm-12 text-center">
-              <h1 className="text-[10rem] text-alex-brush U mb-20 text-glow">
-                <span>Minh </span>  
-                <Image src={Logo} alt="" objectFit='contain' height="80" style={{background: "radial-gradient(#423e3e, transparent)", borderRadius: '100%'}}/>
-                <span> Thư</span> 
+              <h1 className="text-[10rem] text-alex-brush U mb-20">
+                <div className="flex sm:flex-row flex-col justify-center items-center space-y-3 space-x-3">
+                  <span className="leading-[6rem] mr-2">Minh</span>  
+                  <Image src={Logo} alt="" objectFit='contain' height="80" style={{background: "radial-gradient(#423e3e, transparent)", borderRadius: '100%'}}/>
+                  <span className="leading-[10rem]">Thư</span> 
+                </div>
               </h1>
               <div className="block-date-hero">
                 <div className="circle-dashed bg-n">
