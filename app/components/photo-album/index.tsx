@@ -92,7 +92,11 @@ const PhotoAlbum = () => {
         aria-describedby="alert-dialog-slide-description"
       >
         <DialogContent>
-          {open && <Image src={open} alt={""} />}
+          {open && (
+            <Image src={open} alt={""} 
+              className="max-[775px]:w-[70vw] max-[775px]:h-auto min-[776px]:w-auto min-[776px]:h-[85vh]"
+            />
+          )}
         </DialogContent>
       </Dialog>
     </section>

@@ -2,16 +2,21 @@ import { useEffect, useState } from "react";
 
 export default function Loading() {
   const [hide, setHide] = useState(false)
+  const [off, setOff] = useState(false)
 
   useEffect(() => {
     const timeout = setTimeout(() => {
       setHide(true)
     }, 2000)
 
-    return () => clearTimeout(timeout)
+    const timeoutOff = setTimeout(() => {
+      setOff(true)
+    }, 3500)
+
+    return () => clearTimeout(timeoutOff)
   }, [])
 
-  if (hide) return null
+  if (off) return null
 
   return (
     <div className={`loader transition-opacity duration-1000 ${hide ? 'opacity-0' : ''}`}>
