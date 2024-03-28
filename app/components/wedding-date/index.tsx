@@ -13,7 +13,7 @@ const WeddingDate = () => {
         </video> */}
       </div>
       <div className="absolute w-full top-0 text-center z-[9]">
-        <h2 className="text-kristi text-[#ffffff9c] text-[24vw]">Save the date</h2>
+        <h2 className="text-kristi text-[#ffffff9c] text-[23vw]">Save the date</h2>
       </div>
       <div className="absolute !z-[100] top-0 w-full h-[570px]">
         <Image src={BackgroundWeddinDateNoBg} alt="" layout='fill' objectFit='cover'/>

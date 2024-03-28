@@ -30,6 +30,9 @@ export default function Home() {
          {/* <OurBestFriends /> */}
          <WhereWeStay />
          <Footer />
+         <audio id="audio" loop autoPlay> 
+            <source src="/ichooseyou.mp3" type="audio/mpeg" />
+          </audio>
       </div>
     </div>
   );

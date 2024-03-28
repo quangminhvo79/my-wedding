@@ -1,15 +1,17 @@
 
 import Image from "next/image";
-import Photo1 from "@/assets/img/14.jpg"
-import Photo2 from "@/assets/img/15.jpg"
 import { useState } from "react";
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import Slide from '@mui/material/Slide';
 import { TransitionProps } from '@mui/material/transitions';
 import React from "react";
-import QRMinh from "@/assets/img/qr-minh.jpg"
-import QRThu from "@/assets/img/qr-thu.jpeg"
+import GiftBlue from "@/assets/img/gift_blue.png"
+import GiftPink from "@/assets/img/gift_pink.png"
+import QRMinh from "@/assets/img/qr-minh.png"
+import QRThu from "@/assets/img/QRThu.jpeg"
+
+import Floral1 from "@/assets/img/floral/1.png"
 
 const Transition = React.forwardRef(function Transition(
   props: TransitionProps & {
@@ -41,58 +43,26 @@ const WhereWeStay = () => {
   };
 
   return (
-    <section className="accom pt-120 pb-120 ">
+    <section id="gift" className="accom pt-120 pb-120 ">
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 text-center mb-100">
-              <h1 className="text-6xl">Gửi lời chúc đến Quang Minh và Minh Thư</h1>
-              <p className="hidden">Accommodation - information below</p>
+          <div className="flex flex-row mb-[20px] justify-center items-center">
+            <Image src={Floral1} className="mr-1" alt="" width="40" height="100"/>
+            <h1 className="text-6xl ">Hộp quà yêu thương</h1>
+            <Image src={Floral1} className="scale-x-[-1] ml-2" alt="" width="40" height="100"/>
           </div>
         </div>
-        <div className="row">
-          <div className="col-sm-5 col-sm-offset-1 text-center">
-              <div className="block-img">
-                <a onClick={handleOpenMinh} className="venobox">
-                    <div className="background-img">
-                      <Image src={Photo1} alt="" layout='fill' objectFit='contain'/>
-                    </div>
-                </a>
-              </div>
-              <a onClick={handleOpenMinh} className="but mt-30">
-                <span>QR code</span>
-                <svg className="but-svg" width="175" height="50" viewBox="0 0 290 120" xmlns="http://www.w3.org/2000/svg">
-                    <rect className="but-rect" x="10" y="10" width="270" height="100" rx="6" ry="6"/>
-                </svg>
-              </a>
+        <div className="flex sm:flex-row flex-col items-center justify-around mt-[7rem]">
+          <div className="flex justify-center items-center flex-col cursor-pointer sm:mb-0 mb-[7rem]">
+            <div className="font-bold text-4xl mb-[3rem]">Mừng cưới chú rể</div>
+            <Image src={GiftBlue} alt="" width="170" height="400" onClick={handleOpenMinh}/>
           </div>
-          <div className="col-sm-5 text-center">
-            <div className="block-img">
-              <a onClick={handleOpenThu} className="venobox">
-                  <div className="background-img" >
-                    <Image src={Photo2} alt="" layout='fill' objectFit='contain'/>
-                  </div>
-              </a>
-            </div>
-            <a onClick={handleOpenThu} className="but mt-30">
-              <span>QR code</span>
-              <svg className="but-svg" width="175" height="50" viewBox="0 0 290 120" xmlns="http://www.w3.org/2000/svg">
-                  <rect className="but-rect" x="10" y="10" width="270" height="100" rx="6" ry="6"/>
-              </svg>
-            </a>
+          <div className="flex justify-center items-center flex-col cursor-pointer">
+            <div className="font-bold text-4xl mb-[3rem]">Mừng cưới cô dâu</div>
+            <Image src={GiftPink} alt="" width="200" height="400" onClick={handleOpenThu}/>
           </div>
         </div>
       </div>
-      <Dialog
-        open={openThu}
-        TransitionComponent={Transition}
-        keepMounted
-        onClose={handleCloseThu}
-        aria-describedby="alert-dialog-slide-description"
-      >
-        <DialogContent>
-          <Image src={QRMinh} alt={""} />
-        </DialogContent>
-      </Dialog>
       <Dialog
         open={openMinh}
         TransitionComponent={Transition}
@@ -100,8 +70,23 @@ const WhereWeStay = () => {
         onClose={handleCloseMinh}
         aria-describedby="alert-dialog-slide-description"
       >
-        <DialogContent>
+        <DialogContent className="text-center">
+          <Image src={QRMinh} alt={""} />
+          <div className="font-bold text-4xl">Võ Quang Minh</div>
+          <div className="font-bold text-4xl">Ngân hàng Vietcombank</div>
+        </DialogContent>
+      </Dialog>
+      <Dialog
+        open={openThu}
+        TransitionComponent={Transition}
+        keepMounted
+        onClose={handleCloseThu}
+        aria-describedby="alert-dialog-slide-description"
+      >
+        <DialogContent className="text-center">
           <Image src={QRThu} alt={""} />
+          <div className="font-bold text-4xl">Nguyễn Trần Minh Thư</div>
+          <div className="font-bold text-4xl">Ngân hàng Vietcombank</div>
         </DialogContent>
       </Dialog>
     </section>

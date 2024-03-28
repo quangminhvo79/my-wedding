@@ -11,7 +11,7 @@ const HeroBanner = () => {
       <header className="header default">
         <div className=" left-part">
           <a className="scroll" href="#hero">
-            <Image src={Logo} alt="" objectFit='contain' height="54" style={{background: 'radial-gradient(#423e3e, 10%, transparent)', borderRadius: '100%'}}/>
+            <Image src={Logo} alt="" objectFit='contain' height="54"/>
           </a>
         </div>
         <div className="right-part">
@@ -25,8 +25,7 @@ const HeroBanner = () => {
               <li><a className="scroll" href="#story">Love story</a></li>
               <li><a className="scroll" href="#wedding">The wedding</a></li>
               <li><a className="scroll" href="#album">Photo album</a></li>
-              <li><a className="scroll" href="#gift">Gift registry</a></li>
-              <li><a className="scroll" href="#friend">Friends</a></li>
+              <li><a className="scroll" href="#gift">Gifts</a></li>
             </ul>
           </nav>
         </div>
@@ -38,7 +37,7 @@ const HeroBanner = () => {
               <h1 className="text-[10rem] text-alex-brush U mb-20">
                 <div className="flex sm:flex-row flex-col justify-center items-center space-y-3 space-x-3">
                   <span className="leading-[6rem] mr-2">Minh</span>  
-                  <Image src={Logo} alt="" objectFit='contain' height="80" style={{background: "radial-gradient(#423e3e, transparent)", borderRadius: '100%'}}/>
+                  <Image src={Logo} alt="" objectFit='contain' height="80"/>
                   <span className="leading-[10rem]">Thư</span> 
                 </div>
               </h1>
@@ -56,7 +55,7 @@ const HeroBanner = () => {
                   <li>Thứ bảy 30th, 2024</li>
                 </ul>
               </div>
-              <p className="mt-20 text-4xl">Nhà hàng Golf Đồng nai, thị trấn Trảng bom, Huyện Trảng bom, tỉnh Đồng nai</p>
+              <p className="mt-20 text-4xl">Nhà hàng Golf Đồng Nai, thị trấn Trảng Bom, Huyện Trảng Bom, tỉnh Đồng Nai</p>
             </div>
           </div>
         </div>

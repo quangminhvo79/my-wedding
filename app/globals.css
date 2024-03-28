@@ -50,3 +50,12 @@ body {
                1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
   }
 }
+
+.dash-circle-stoke {
+  stroke: #ffffff;
+  stroke-width: 3px;
+  stroke-dasharray: 5 5;
+  stroke-dashoffset: 8;
+  stroke-linecap: square;
+  fill: none;
+}

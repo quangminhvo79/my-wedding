@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Photo1 from "@/assets/img/17.jpg"
+import Rings from "@/assets/img/wedding.png"
 
 const Footer = () => {
   return (
@@ -29,7 +29,11 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
-              <p className="text-6xl text-alex-brush">🤵🏻 Quang Minh ♥️ Minh Thư 👰🏻‍♀️</p>
+              <p className="text-6xl text-alex-brush">
+                <span>🤵🏻 Quang Minh </span> 
+                <Image src={Rings} alt="" width="30" />
+                <span> Minh Thư 👰🏻‍♀️</span>
+              </p>
               <p>Sự hiện diện của Quý Khách là niềm vinh hạnh cho gia đình chúng tôi!</p>
             </div>
           </div>
