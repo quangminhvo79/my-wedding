@@ -282,7 +282,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: url('/bg.png') repeat;
+  background: url('/bg.jpg') repeat;
 }
 input,
 button,

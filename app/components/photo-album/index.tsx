@@ -1,11 +1,11 @@
 import Image, { StaticImageData } from "next/image";
 import Photo1 from "@/assets/img/album/KBI00888.jpg"
-import Photo2 from "@/assets/img/album/KBI01375.jpg"
+import Photo2 from "@/assets/img/album/KBI01102.jpg"
 import Photo3 from "@/assets/img/album/KBI01375.jpg"
 import Photo4 from "@/assets/img/album/KBI01412.jpg"
 import Photo5 from "@/assets/img/album/KBI01674.jpg"
 import Photo6 from "@/assets/img/album/KBI01915.jpg"
-import Photo7 from "@/assets/img/album/KBI01915.jpg"
+import Photo7 from "@/assets/img/album/KBI01967.jpg"
 import Photo8 from "@/assets/img/album/KBI02165.jpg"
 import Photo9 from "@/assets/img/album/KBI02235.jpg"
 

@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
         <div className="container hidden">
           <div className="row">
-            <div className="col-sm-12 text-center">
+            <div className="text-center col-sm-12">
                 <div className="block-content front-p">
                   <h2 className="typo">Just married</h2>
                   <h2 className="text-6xl text-alex-brush">Quang Minh ♥️ Minh Thư</h2>
@@ -28,8 +28,8 @@ const Footer = () => {
       <footer className="footer pt-70 pb-[3rem]">
         <div className="container">
           <div className="row">
-            <div className="col-sm-12 text-center">
-              <p className="text-6xl text-alex-brush">
+            <div className="text-center col-sm-12">
+              <p className="text-[6vw] sm:text-[3vw] text-alex-brush whitespace-nowrap">
                 <span>🤵🏻 Quang Minh </span> 
                 <Image src={Rings} alt="" width="30" />
                 <span> Minh Thư 👰🏻‍♀️</span>

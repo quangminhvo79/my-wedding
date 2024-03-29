@@ -48,7 +48,7 @@ const WhereWeStay = () => {
         <div className="row">
           <div className="flex flex-row mb-[20px] justify-center items-center">
             <Image src={Floral1} className="mr-1" alt="" width="40" height="100"/>
-            <h1 className="text-6xl ">Hộp quà yêu thương</h1>
+            <h1 className="text-[7vw] sm:text-[3vw] text-center whitespace-nowrap">Hộp quà yêu thương</h1>
             <Image src={Floral1} className="scale-x-[-1] ml-2" alt="" width="40" height="100"/>
           </div>
         </div>
@@ -57,7 +57,7 @@ const WhereWeStay = () => {
             <div className="font-bold text-4xl mb-[3rem]">Mừng cưới chú rể</div>
             <Image src={GiftBlue} alt="" width="170" height="400" onClick={handleOpenMinh}/>
           </div>
-          <div className="flex justify-center items-center flex-col cursor-pointer">
+          <div className="flex flex-col items-center justify-center cursor-pointer">
             <div className="font-bold text-4xl mb-[3rem]">Mừng cưới cô dâu</div>
             <Image src={GiftPink} alt="" width="200" height="400" onClick={handleOpenThu}/>
           </div>
@@ -72,8 +72,8 @@ const WhereWeStay = () => {
       >
         <DialogContent className="text-center">
           <Image src={QRMinh} alt={""} />
-          <div className="font-bold text-4xl">Võ Quang Minh</div>
-          <div className="font-bold text-4xl">Ngân hàng Vietcombank</div>
+          <div className="text-4xl font-bold">Võ Quang Minh</div>
+          <div className="text-4xl font-bold">Ngân hàng Vietcombank</div>
         </DialogContent>
       </Dialog>
       <Dialog
@@ -85,8 +85,8 @@ const WhereWeStay = () => {
       >
         <DialogContent className="text-center">
           <Image src={QRThu} alt={""} />
-          <div className="font-bold text-4xl">Nguyễn Trần Minh Thư</div>
-          <div className="font-bold text-4xl">Ngân hàng Vietcombank</div>
+          <div className="text-4xl font-bold">Nguyễn Trần Minh Thư</div>
+          <div className="text-4xl font-bold">Ngân hàng Vietcombank</div>
         </DialogContent>
       </Dialog>
     </section>

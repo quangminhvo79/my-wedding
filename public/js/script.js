@@ -77,5 +77,8 @@
             $(this).html(event.strftime('%D days %H:%M:%S'));
         });
 
+        $(document).on('click', function(){ 
+            document.querySelector('audio').play()
+        });
     }
 )(jQuery);
