@@ -78,7 +78,8 @@
         });
 
         $(document).on('click', function(){ 
-            document.querySelector('audio').play()
+            document.querySelector('video').muted = false
+            console.log('audio played');
         });
     }
 )(jQuery);
